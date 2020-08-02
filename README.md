@@ -17,4 +17,4 @@ This plugin automatically add the following actions to `file` scheme.
 
 ## See also
 
-- [fern-git-status](https://github.com/lambdalisue/fern-git-status) - Add Git status badge
+- [fern-git-status](https://github.com/lambdalisue/fern-git-status.vim) - Add Git status badge
