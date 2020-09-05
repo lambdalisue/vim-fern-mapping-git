@@ -1,6 +1,6 @@
-if exists('g:fern_mapping_project_top_loaded')
+if exists('g:fern_mapping_git_loaded')
   finish
 endif
-let g:fern_mapping_project_top_loaded = 1
+let g:fern_mapping_git_loaded = 1
 
 call add(g:fern#scheme#file#mapping#mappings, 'git')
