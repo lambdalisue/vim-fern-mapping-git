@@ -6,8 +6,8 @@ function! fern#scheme#file#mapping#git#init(disable_default_mappings) abort
 
   if !a:disable_default_mappings
         \ && !g:fern#scheme#file#mapping#git#disable_default_mappings
-    call fern#mapping#nmap('<<', '<Plug>(fern-action-git-stage)')
-    call fern#mapping#nmap('>>', '<Plug>(fern-action-git-unstage)')
+    nmap <buffer><nowait> << <Plug>(fern-action-git-stage)
+    nmap <buffer><nowait> >> <Plug>(fern-action-git-unstage)
   endif
 endfunction
 
